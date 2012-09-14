@@ -471,7 +471,7 @@ OptionHandlerFactory::createOptionHandlers()
                                    (PREF_MAX_CONNECTION_PER_SERVER,
                                     TEXT_MAX_CONNECTION_PER_SERVER,
                                     "1",
-                                    1, 16,
+                                    1, 2048,
                                     'x'));
     op->addTag(TAG_BASIC);
     op->addTag(TAG_FTP);
